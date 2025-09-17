@@ -328,7 +328,7 @@ function updateStats() {
   animateNumber("completed-tasks", completed);
   animateNumber("pending-tasks", pending);
 
-  // Calculate percentages 
+  // Calculate percentages
   const completedPercentage = total > 0 ? (completed / total) * 100 : 0;
   const pendingPercentage = total > 0 ? (pending / total) * 100 : 0;
 
@@ -357,8 +357,8 @@ function updateStats() {
 function animateNumber(elementId, targetValue) {
   const element = document.getElementById(elementId);
   const startValue = parseInt(element.textContent) || 0;
-  const duration = 500; // Reduced duration for smoother animation
-  const steps = 20; // Fixed number of steps
+  const duration = 500;
+  const steps = 20;
   const stepValue = (targetValue - startValue) / steps;
   let currentStep = 0;
 

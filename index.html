@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Smart Study Planner</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <div class="bg-animation">
     <div class="floating-shapes">
@@ -74,7 +70,6 @@
           <span class="title-gradient">Add New Study Task</span>
           <div class="title-underline"></div>
         </h2>
-
         <form id="task-form" class="modern-form">
           <div class="form-grid">
             <div class="input-group">
@@ -84,7 +79,6 @@
                 <div class="input-border"></div>
               </div>
             </div>
-
             <div class="input-group full-width">
               <label for="task-desc">Description</label>
               <div class="input-wrapper">
@@ -92,7 +86,6 @@
                 <div class="input-border"></div>
               </div>
             </div>
-
             <div class="input-group">
               <label for="task-date">Due Date</label>
               <div class="input-wrapper">
@@ -100,7 +93,6 @@
                 <div class="input-border"></div>
               </div>
             </div>
-
             <div class="input-group">
               <label for="task-priority">Priority</label>
               <div class="input-wrapper">
@@ -113,7 +105,6 @@
               </div>
             </div>
           </div>
-
           <button type="submit" class="submit-btn">
             <span class="btn-text">Add Task</span>
             <div class="btn-glow"></div>
@@ -130,7 +121,6 @@
             <span class="title-gradient">Your Study Tasks</span>
             <div class="title-underline"></div>
           </h2>
-
           <div class="filter-container">
             <div class="filter-buttons">
               <button class="filter-btn active" data-filter="all">
@@ -145,7 +135,6 @@
             </div>
           </div>
         </div>
-
         <div id="tasks-list" class="tasks-list">
           <div class="no-tasks">
             <div class="no-tasks-icon">📝</div>
@@ -160,7 +149,7 @@
     </div>
   </div>
 
-
+  <!-- Personal Info Section -->
   <section class="personal-info-section">
     <div class="personal-card">
       <div class="personal-image">
@@ -169,25 +158,20 @@
       <div class="personal-content">
         <h2>About Me</h2>
         <h2 class="name">I AM HUZAIF </h2>
-        <p>I am a passionate web developer with expertise in creating modern and responsive websites. My goal is to
-          build user-friendly and visually appealing web applications that solve real-world problems.</p>
+        <p>I am a passionate web developer with expertise in creating modern and responsive websites. My goal is to build user-friendly and visually appealing web applications that solve real-world problems.</p>
         <div class="personal-info">
           <div class="info-item">
             <i class="fas fa-envelope"></i>
             <span>mdhuzaifsh786@gmail.com</span>
           </div>
-         
           <div class="info-item">
             <i class="fa-solid fa-laptop-code"></i>
             <span>MERN stack developer</span>
           </div>
           <div class="info-item link-social">
-            <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
-            <!-- <a href="#"><i class="fa-brands fa-square-x-twitter"></i></i></a> -->
             <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-github"></i></a>
           </div>
-
         </div>
       </div>
     </div>
@@ -204,12 +188,10 @@
       <div class="footer-right">
         <a href="#" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
         <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin"></i></a>
-        <!-- <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a> -->
       </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
-
 </html>
